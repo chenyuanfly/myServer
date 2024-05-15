@@ -1,0 +1,2 @@
+# myServer
+用于学习了解webServer项目，基于已开发完整的TinyWebServer进一步实现一些功能。
