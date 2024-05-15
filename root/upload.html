@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>大文件上传</title>
+    <title>断电续传大文件上传</title>
 </head>
 <style>
     #progressContainer {
@@ -23,10 +23,11 @@
 <body>
     <input type="file" id="fileInput" />
     <button id="uploadButton">上传文件</button>
+    <button id="pauseButton">暂停上传</button>
     <div id="progressContainer">
-        <div id="progressBar" style="width: 0%;"></div>
+        <div id="progressBar" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0"></div>
     </div>
 
     <script src="upload.js"></script>
 </body>
-</html>
+</html> 
