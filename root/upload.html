@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>大文件上传</title>
+</head>
+<style>
+    #progressContainer {
+        width: 100%;
+        background-color: #eee;
+        border: 1px solid #999;
+        margin-top: 10px;
+    }
+    #progressBar {
+        width: 0%;
+        height: 30px;
+        background-color: #4CAF50;
+        text-align: center;
+        line-height: 30px;
+        color: white;
+    }
+</style>
+<body>
+    <input type="file" id="fileInput" />
+    <button id="uploadButton">上传文件</button>
+    <div id="progressContainer">
+        <div id="progressBar" style="width: 0%;"></div>
+    </div>
+
+    <script src="upload.js"></script>
+</body>
+</html>
